@@ -156,6 +156,7 @@ MonoBehaviour:
   bullet: {fileID: 5109268076672165372, guid: f51e72a640f705a41b58f1d4a283e2c0, type: 3}
   turret: {fileID: 1571149760}
   enemy: {fileID: 620903246}
+  turretBase: {fileID: 1912526122}
 --- !u!1 &620903246 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1043457633746962670, guid: f8df63ccbdfa54d54833de3ea7e2ce5a, type: 3}
