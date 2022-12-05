@@ -30,7 +30,7 @@ public class GAgent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GAction[] acts = this.GetComponent<GAction>();
+        GAction[] acts = this.GetComponents<GAction>();
         foreach(GAction a in acts)
             actions.Add(a);
     }
