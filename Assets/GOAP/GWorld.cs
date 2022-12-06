@@ -9,7 +9,7 @@ public sealed class GWorld
     private static Queue<GameObject> patients;
     private static Queue<GameObject> cubicles;
 
-    /*static GWorld()
+    static GWorld()
     {
         world = new WorldStates();
         patients = new Queue<GameObject>();
@@ -19,12 +19,12 @@ public sealed class GWorld
         foreach(GameObject c in cubes)
             cubicles.Enqueue(c);
 
-        if(cubes.Lenght > 0)
+        if(cubes.Length > 0)
             world.ModifyState("FreeCubicle", cubes.Length);
         
         Time.timeScale = 5;
     }
-*/
+
     private GWorld()
     {
     }
