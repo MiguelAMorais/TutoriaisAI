@@ -9,7 +9,7 @@ public sealed class GWorld
     private static Queue<GameObject> patients;
     private static Queue<GameObject> cubicles;
 
-    static GWorld()
+    /*static GWorld()
     {
         world = new WorldStates();
         patients = new Queue<GameObject>();
@@ -22,7 +22,7 @@ public sealed class GWorld
         if(cubes.Lenght > 0)
             world.ModifyState("FreeCubicle", cubes.Length);
     }
-
+*/
     private GWorld()
     {
     }
