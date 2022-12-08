@@ -6,7 +6,7 @@ public class GetTreated : GAction
 {
     public override bool PrePerform()
     {
-        target = GWorld.Instance.RemovePatient();
+        target = inventory.FindItemWithTag("Cubicle");
         if(target == null)
             return false;
         return true;
