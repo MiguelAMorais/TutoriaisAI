@@ -33,6 +33,13 @@ public class FollowPath : MonoBehaviour
         currentWP = 0;
     }
 
+    public void GotoTanks()
+    {
+        g.AStar(currentNode, wps[5]);
+        currentWP = 0;
+    }
+
+
     // Update is called once per frame
     void LateUpdate()
     {
